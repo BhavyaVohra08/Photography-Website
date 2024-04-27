@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="myscript.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Photography Website</title>
+  </head>
+  <body>
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <nav class="nav-list">
+          <div class="title-name">
+            <h2>Bhavya Vohra</h2>
+          </div>
+          <ul class="navlist-items">
+            <li class="nav-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="main-qoute">
+          <p class="qoute">
+            “It’s not the streets, it’s where the streets lead you that’s
+            important.”
+          </p>
+          <p class="byline">-Bruce Davidson</p>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714064114/t78sosxcyxzpfx9qejyn.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714064114/gnutqin9osgvzt1wq1wm.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714067460/vwmiqmftfoo4tfn04eza.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!--Gives a collection of images-->
+      <div class="photo-gallery">
+        <h1 class="section-title">Photo Gallery</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+              src="https://images.unsplash.com/photo-1713106200279-57129989b32c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDYxfHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
+
+            <img
+              src="https://images.unsplash.com/photo-1713189325876-039b4e4102c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQ3fHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Wintry Mountain Landscape"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://images.unsplash.com/photo-1712961747494-008682969516?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Mountains in the Clouds"
+            />
+
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://images.unsplash.com/photo-1709570597760-bb2be9ed7c56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyMHx4SHhZVE1ITGdPY3x8ZW58MHx8fHx8"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Waves at Sea"
+            />
+
+            <img
+              src="https://images.unsplash.com/photo-1653293038418-68473745a74a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDg5fHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Yosemite National Park"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!--Contains a carousel with some text for each picture-->
+      <div class="honourable-mentions">
+        <h1 class="section-title">Honourable Mentions</h1>
+        <div class="honourable-mentions-body">
+          <div class="text-section">
+            <h3 class="img-text-title">Picture 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              culpa harum dolorum ab eos delectus animi! Aspernatur veritatis
+              odio sequi aliquid cupiditate adipisci qui. Officiis vitae saepe
+              sapiente praesentium ut? Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Aliquid nisi iusto quis animi atque, debitis
+              autem ducimus quasi eius modi est porro, accusantium iste adipisci
+              odio corporis dolor ipsam earum.
+            </p>
+          </div>
+
+          <div id="carouselExample" class="carousel carousel-2 slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714120050/vsrkn4ty2wvpdnf7hmsr.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714120051/rqufa7tdqbojl9ujbpr7.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714120050/kgyqfdxeep1xraov3kcm.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev prev-btn"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next next-btn"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!--A picture with a qoute-->
+      <div class="img-with-qoute">
+        <div class="qoute-section">
+          <p class="qoute-1">A good photograph is knowing where to stand.</p>
+          <p class="byline-1">-Ansel Adams</p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1533282960533-51328aa49826?q=80&w=2142&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+      </div>
+
+      <!--Another image carousel-->
+      <div class="testimonial-section">
+        <h1 class="section-title">Testimonial</h1>
+        <div class="img-slider-wrap">
+          <span class="material-symbols-outlined back-btn"> arrow_back </span>
+          <div class="img-slider">
+            <div>
+              <span class="slide"
+                ><img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714207496/assdioefzryuhpwzgibq.jpg"
+              /></span>
+              <span class="slide"
+                ><img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1713978620/euzo3yxjtu8v3rxfklx2.jpg"
+              /></span>
+              <span class="slide"
+                ><img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714206966/vwbk7u5x0mlfikes5pqh.jpg"
+              /></span>
+            </div>
+            <div>
+              <span class="slide"
+                ><img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714207768/rt5ikgh42vdwd9xw5i9u.jpg"
+              /></span>
+              <span class="slide"
+                ><img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714206864/a0bszpd3ytmxndrnixqi.jpg"
+              /></span>
+              <span class="slide"
+                ><img
+                  src="https://res.cloudinary.com/dakwhsh6x/image/upload/v1714208215/hwqw3uqfott3bpibxeci.jpg"
+              /></span>
+            </div>
+          </div>
+          <span class="material-symbols-outlined fwd-btn">arrow_forward</span>
+        </div>
+      </div>
+
+      <!--Final section which contains a qoute-->
+      <div class="final-qoute-section">
+        <p class="final-qoute">"The best images are the ones that retain their strength and impact over the years, regardless of the number of times they are viewed."</p>
+        <p class="byline-final">– Anne Geddes</p>
+      </div>
+
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
